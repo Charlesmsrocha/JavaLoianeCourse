@@ -11,9 +11,9 @@ public class Exe005 {
 		
 		try (Scanner scankb = new Scanner (System.in)) {
 			System.out.print("Type how many meters: ");
-			int meters = scankb.nextInt();
+			double meters = scankb.nextDouble();
 			
-			float centimeters = meters * 100;
+			double centimeters = meters * 100;
 			
 			System.out.print(meters + " meters has " + centimeters + " centimeters.");
 		}
