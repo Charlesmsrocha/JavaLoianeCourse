@@ -12,18 +12,18 @@ public class Exe004 {
 		Scanner scankb = new Scanner (System.in);
 		
 		System.out.print("Insert the first grade: ");
-		int grade1 = scankb.nextInt();
+		double grade1 = scankb.nextDouble();
 		
 		System.out.print("Insert the second grade: ");
-		int grade2 = scankb.nextInt();
+		double grade2 = scankb.nextDouble();
 		
 		System.out.print("Insert the third grade: ");
-		int grade3 = scankb.nextInt();
+		double grade3 = scankb.nextDouble();
 		
 		System.out.print("Insert the last grade: ");
-		int grade4 = scankb.nextInt();
+		double grade4 = scankb.nextDouble();
 		
-		float average = (grade1 + grade2 + grade3 + grade4) / 4;
+		Double average = (grade1 + grade2 + grade3 + grade4) / 4;
 		
 		System.out.print("Your average grade is " + average);
 			
