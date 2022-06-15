@@ -13,9 +13,9 @@ public class Exe009 {
 		Scanner scankb = new Scanner(System.in);
 		
 		System.out.print("Type the temperature in Farenheit: ");
-		int temperatureF = scankb.nextInt();
+		double temperatureF = scankb.nextDouble();
 		
-		int temperatureC = (5*(temperatureF - 32) / 9);
+		double temperatureC = (5*(temperatureF - 32) / 9);
 		
 		System.out.println(temperatureF + " Farenheit in Celsius is " + temperatureC + " degrees.");
 
