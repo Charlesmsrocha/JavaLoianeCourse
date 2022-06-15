@@ -6,8 +6,9 @@ public class Exe012 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Obtaining the height data of a person, write an algorithm that calculates the ideal weight, using the formula (72.7*height) - 58.");
-		System.out.println("----------------------------------------------------------------------------------------------------------------------------------");
+		System.out.println("Obtaining the height data of a person, write an algorithm that calculates the ideal weight,\n"
+				+ " using the formula (72.7*height) - 58.");
+		System.out.println("----------------------------------------------------------------------------------------------");
 
 		Scanner scankb = new Scanner(System.in);
 		

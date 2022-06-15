@@ -25,7 +25,7 @@ public class Exe011 {
 		
 		float a = (firstNumber*2) * (secondNumber/2);
 		float b = (firstNumber*3) + thirdNumber;
-		float c = thirdNumber*thirdNumber*thirdNumber;
+		float c = thirdNumber*thirdNumber*thirdNumber; //Math.pow (num3, 3)
 		
 		System.out.println("a: " + a + "\n"
 				+ "b: " + b + "\n"
