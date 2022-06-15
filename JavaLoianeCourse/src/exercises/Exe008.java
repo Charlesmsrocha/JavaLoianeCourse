@@ -13,14 +13,14 @@ public class Exe008 {
 		Scanner scankb = new Scanner(System.in);
 		
 		System.out.print("How much do you earn per hour? ");
-		float earnPerHour = scankb.nextFloat();
+		double earnPerHour = scankb.nextDouble();
 		
 		System.out.print("How many hours do you work per month? ");
-		int daysPerMonth = scankb.nextInt();
+		double daysPerMonth = scankb.nextDouble();
 		
 		double salary = earnPerHour*daysPerMonth;
 		
-		System.out.println("If you work " + daysPerMonth + ", your salary will be " + earnPerHour + ".");
+		System.out.println("If you work " + daysPerMonth + ", your salary will be " + salary + ".");
 
 
 	}
