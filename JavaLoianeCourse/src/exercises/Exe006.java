@@ -17,6 +17,8 @@ public class Exe006 {
 		float pi = 3.1415f;
 		float area = pi * (radius*radius);
 		
+		// double area = Math.PI * Math.pow(radius, 2);
+		
 		System.out.print("The circle area is " + area);
 
 	}
