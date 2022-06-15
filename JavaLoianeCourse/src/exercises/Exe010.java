@@ -13,7 +13,7 @@ public class Exe010 {
 		Scanner scankb = new Scanner(System.in);
 		
 		System.out.print("Type how many Celsius degrees: ");
-		int celsius = scankb.nextInt();
+		double celsius = scankb.nextDouble();
 		
 		double farenheit = (celsius *1.8) + 32;
 		
